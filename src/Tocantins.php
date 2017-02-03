@@ -1,19 +1,24 @@
 <?php
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 namespace Brazanation\States;
 
-/**
- * Description of Tocantins
- *
- * @author administrador
- */
 class Tocantins
 {
-    //put your code here
+    const CODE = 17;
+
+    const FULL_NAME = 'Tocantins';
+
+    const SHORT_NAME = 'TO';
+
+    const TIMEZONE = 'America/Araguaina';
+
+    public function __construct()
+    {
+        parent::__construct(
+            self::FULL_NAME,
+            self::SHORT_NAME,
+            self::CODE,
+            self::TIMEZONE
+        );
+    }
 }
