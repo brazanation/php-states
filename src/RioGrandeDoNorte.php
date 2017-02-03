@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class RioGrandedoNorte
+class RioGrandeDoNorte
 {
     const CODE = 24;
 

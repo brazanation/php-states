@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class MatoGrossodoSul
+class MatoGrossoDoSul
 {
     const CODE = 50;
 
