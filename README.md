@@ -30,7 +30,7 @@ $ composer.phar install
 or
 
 ```sh
-$ composer require brazanation/documents dev-master
+$ composer require brazanation/states dev-master
 ```
 
 ### Usage
