@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class Para
+class Para extends State
 {
-    const CODE = 15;
-
-    const FULL_NAME = 'Para';
-
-    const SHORT_NAME = 'PA';
-
-    const TIMEZONE = 'America/Belem';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Pará',
+            'abbr' => 'PA',
+            'capital' => 'Belém',
+            'timezone' => 'America/Belem',
+            'region' => 'Norte',
+            'dst' => false,
+            'slug' => 'para',
+        ]);
     }
 }

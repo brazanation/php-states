@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class Alagoas
+class Alagoas extends State
 {
-    const CODE = 27;
-
-    const FULL_NAME = 'Alagoas';
-
-    const SHORT_NAME = 'AL';
-
-    const TIMEZONE = 'America/Maceio';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Alagoas',
+            'abbr' => 'AL',
+            'capital' => 'Maceió',
+            'timezone' => 'America/Maceio',
+            'region' => 'Nordeste',
+            'dst' => false,
+            'slug' => 'alagoas',
+        ]);
     }
 }

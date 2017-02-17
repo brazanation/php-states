@@ -1,0 +1,188 @@
+- name: Acre
+  abbr: AC
+  capital: Rio Branco
+  timezone: America/Rio_Branco
+  region: Norte
+  dst: false
+
+- name: Alagoas
+  abbr: AL
+  capital: Maceió
+  timezone: America/Maceio
+  region: Nordeste
+  dst: false
+
+- name: Amapá
+  abbr: AP
+  capital: Macapá
+  timezone: America/Belem
+  region: Norte
+  dst: false
+
+- name: Amazonas
+  abbr: AM
+  capital: Manaus
+  timezone: America/Manaus
+  region: Norte
+  dst: false
+
+- name: Bahia
+  abbr: BA
+  capital: Salvador
+  timezone: America/Bahia
+  region: Nordeste
+  dst: false
+
+- name: Ceará
+  abbr: CE
+  capital: Fortaleza
+  timezone: America/Fortaleza
+  region: Nordeste
+  dst: false
+
+- name: Distrito Federal
+  abbr: DF
+  capital: Brasília
+  timezone: America/Sao_Paulo
+  region: Centro-Oeste
+  dst: true
+
+- name: Espírito Santo
+  abbr: ES
+  capital: Vitória
+  timezone: America/Sao_Paulo
+  region: Sudeste
+  dst: true
+
+- name: Goiás
+  abbr: GO
+  capital: Goiânia
+  timezone: America/Sao_Paulo
+  region: Centro-Oeste
+  dst: true
+
+- name: Maranhão
+  abbr: MA
+  capital: São Luís
+  timezone: America/Fortaleza
+  region: Nordeste
+  dst: false
+
+- name: Mato Grosso
+  abbr: MT
+  capital: Cuiabá
+  timezone: America/Cuiaba
+  region: Centro-Oeste
+  dst: true
+
+- name: Mato Grosso do Sul
+  abbr: MS
+  capital: Campo Grande
+  timezone: America/Campo_Grande
+  region: Centro-Oeste
+  dst: true
+
+- name: Minas Gerais
+  abbr: MG
+  capital: Belo Horizonte
+  timezone: America/Sao_Paulo
+  region: Sudeste
+  dst: true
+
+- name: Pará
+  abbr: PA
+  capital: Belém
+  timezone: America/Belem
+  region: Norte
+  dst: false
+
+- name: Paraíba
+  abbr: PB
+  capital: João Pessoa
+  timezone: America/Fortaleza
+  region: Nordeste
+  dst: false
+
+- name: Paraná
+  abbr: PR
+  capital: Curitiba
+  timezone: America/Sao_Paulo
+  region: Sul
+  dst: true
+
+- name: Pernambuco
+  abbr: PE
+  capital: Recife
+  timezone: America/Recife
+  region: Nordeste
+  dst: false
+
+- name: Piauí
+  abbr: PI
+  capital: Teresina
+  timezone: America/Fortaleza
+  region: Nordeste
+  dst: false
+
+- name: Rio de Janeiro
+  abbr: RJ
+  capital: Rio de Janeiro
+  timezone: America/Sao_Paulo
+  region: Sudeste
+  dst: true
+
+- name: Rio Grande do Norte
+  abbr: RN
+  capital: Natal
+  timezone: America/Fortaleza
+  region: Nordeste
+  dst: false
+
+- name: Rio Grande do Sul
+  abbr: RS
+  capital: Porto Alegre
+  timezone: America/Sao_Paulo
+  region: Sul
+  dst: true
+
+- name: Rondônia
+  abbr: RO
+  capital: Porto Velho
+  timezone: America/Porto_Velho
+  region: Norte
+  dst: false
+
+- name: Roraima
+  abbr: RR
+  capital: Boa Vista
+  timezone: America/Boa_Vista
+  region: Norte
+  dst: false
+
+- name: Santa Catarina
+  abbr: SC
+  capital: Florianópolis
+  timezone: America/Sao_Paulo
+  region: Sul
+  dst: true
+
+- name: São Paulo
+  abbr: SP
+  capital: São Paulo
+  timezone: America/Sao_Paulo
+  region: Sudeste
+  dst: true
+
+- name: Sergipe
+  abbr: SE
+  capital: Aracaju
+  timezone: America/Maceio
+  region: Nordeste
+  dst: false
+
+- name: Tocantins
+  abbr: TO
+  capital: Palmas
+  timezone: America/Araguaina
+  region: Norte
+  dst: false

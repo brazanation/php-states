@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class MinasGerais
+class MinasGerais extends State
 {
-    const CODE = 31;
-
-    const FULL_NAME = 'Minas Gerais';
-
-    const SHORT_NAME = 'MG';
-
-    const TIMEZONE = 'America/Sao_Paulo';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Minas Gerais',
+            'abbr' => 'MG',
+            'capital' => 'Belo Horizonte',
+            'timezone' => 'America/Sao_Paulo',
+            'region' => 'Sudeste',
+            'dst' => true,
+            'slug' => 'minas-gerais',
+        ]);
     }
 }

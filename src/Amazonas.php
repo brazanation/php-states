@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class Amazonas
+class Amazonas extends State
 {
-    const CODE = 13;
-
-    const FULL_NAME = 'Amazonas';
-
-    const SHORT_NAME = 'AM';
-
-    const TIMEZONE = 'America/Manaus';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Amazonas',
+            'abbr' => 'AM',
+            'capital' => 'Manaus',
+            'timezone' => 'America/Manaus',
+            'region' => 'Norte',
+            'dst' => false,
+            'slug' => 'amazonas',
+        ]);
     }
 }

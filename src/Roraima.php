@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class Roraima
+class Roraima extends State
 {
-    const CODE = 14;
-
-    const FULL_NAME = 'Roraima';
-
-    const SHORT_NAME = 'RR';
-
-    const TIMEZONE = 'America/Boa_Vista';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Roraima',
+            'abbr' => 'RR',
+            'capital' => 'Boa Vista',
+            'timezone' => 'America/Boa_Vista',
+            'region' => 'Norte',
+            'dst' => false,
+            'slug' => 'roraima',
+        ]);
     }
 }

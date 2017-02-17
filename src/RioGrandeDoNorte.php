@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class RioGrandeDoNorte
+class RioGrandeDoNorte extends State
 {
-    const CODE = 24;
-
-    const FULL_NAME = 'Rio Grande do Norte';
-
-    const SHORT_NAME = 'RN';
-
-    const TIMEZONE = 'America/Fortaleza';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Rio Grande do Norte',
+            'abbr' => 'RN',
+            'capital' => 'Natal',
+            'timezone' => 'America/Fortaleza',
+            'region' => 'Nordeste',
+            'dst' => false,
+            'slug' => 'rio-grande-do-norte',
+        ]);
     }
 }

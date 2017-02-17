@@ -2,56 +2,57 @@
 
 namespace Brazanation\States;
 
-/**
- * Class State
- *
- * @package Brazanation\States
- *
- * @method static acre() Acre
- */
-abstract class State implements StateInterface
+class State implements StateInterface
 {
-    private static $available = [
-        Acre::FULL_NAME => Acre::class,
-    ];
+    protected $data;
 
-    /**
-     * @var string
-     */
-    public $fullName;
-
-    /**
-     * @var string
-     */
-    public $shortName;
-
-    /**
-     * @var int
-     */
-    public $code;
-
-    /**
-     * @var string
-     */
-    public $timeZone;
-
-    protected function __construct($fullName, $shortName, $code, $timeZone)
+    public function __construct(array $data)
     {
-        $this->fullName = $fullName;
-        $this->shortName = $shortName;
-        $this->code = $code;
-        $this->timeZone = $timeZone;
+        $this->data = $data;
     }
 
-    public static function __callStatic($name, $args)
+    public function getData()
     {
-        $className = self::$available[ucfirst($name)];
-
-        return new $className();
+        return $this->data;
     }
 
-    public function equalTo(StateInterface $state)
+    public function getItem($key, $default = null)
     {
-        return ($this === $state);
+        return array_key_exists($key, $this->data) ? $this->data[$key] : $default;
+    }
+
+    public function getName()
+    {
+        return $this->getItem('name');
+    }
+
+    public function getAbbr()
+    {
+        return $this->getItem('abbr');
+    }
+
+    public function getCapital()
+    {
+        return $this->getItem('capital');
+    }
+
+    public function getRegion()
+    {
+        return $this->getItem('region');
+    }
+
+    public function getTimezone()
+    {
+        return $this->getItem('timezone');
+    }
+
+    public function getDst()
+    {
+        return $this->getItem('dst');
+    }
+
+    public function getSlug()
+    {
+        return $this->getItem('slug');
     }
 }

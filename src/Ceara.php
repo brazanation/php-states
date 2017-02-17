@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class Ceara
+class Ceara extends State
 {
-    const CODE = 23;
-
-    const FULL_NAME = 'Ceara';
-
-    const SHORT_NAME = 'CE';
-
-    const TIMEZONE = 'America/Fortaleza';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Ceará',
+            'abbr' => 'CE',
+            'capital' => 'Fortaleza',
+            'timezone' => 'America/Fortaleza',
+            'region' => 'Nordeste',
+            'dst' => false,
+            'slug' => 'ceara',
+        ]);
     }
 }

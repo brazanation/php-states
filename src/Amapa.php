@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class Amapa
+class Amapa extends State
 {
-    const CODE = 16;
-
-    const FULL_NAME = 'Amapa';
-
-    const SHORT_NAME = 'AP';
-
-    const TIMEZONE = 'America/Belem';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Amapá',
+            'abbr' => 'AP',
+            'capital' => 'Macapá',
+            'timezone' => 'America/Belem',
+            'region' => 'Norte',
+            'dst' => false,
+            'slug' => 'amapa',
+        ]);
     }
 }

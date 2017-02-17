@@ -1,0 +1,25 @@
+<?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
+
+namespace Brazanation\States\Tests;
+
+use Brazanation\States\%%ClassName%%;
+
+class %%ClassName%%Test extends \PHPUnit_Framework_TestCase
+{
+    public function test%%ClassName%%()
+    {
+        $state = new %%ClassName%%();
+
+        $this->assertEquals($state->getName(), '%%name%%');
+        $this->assertEquals($state->getAbbr(), '%%abbr%%');
+        $this->assertEquals($state->getCapital(), '%%capital%%');
+        $this->assertEquals($state->getTimezone(), '%%timezone%%');
+        $this->assertEquals($state->getRegion(), '%%region%%');
+        $this->assertEquals($state->getDst(), %%dst%%);
+        $this->assertEquals($state->getSlug(), '%%slug%%');
+    }
+}

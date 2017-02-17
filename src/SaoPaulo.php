@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class SaoPaulo
+class SaoPaulo extends State
 {
-    const CODE = 35;
-
-    const FULL_NAME = 'Sao Paulo';
-
-    const SHORT_NAME = 'SP';
-
-    const TIMEZONE = 'America/Sao_Paulo';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'São Paulo',
+            'abbr' => 'SP',
+            'capital' => 'São Paulo',
+            'timezone' => 'America/Sao_Paulo',
+            'region' => 'Sudeste',
+            'dst' => true,
+            'slug' => 'sao-paulo',
+        ]);
     }
 }

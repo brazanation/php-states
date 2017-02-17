@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class Piaui
+class Piaui extends State
 {
-    const CODE = 22;
-
-    const FULL_NAME = 'Piaui';
-
-    const SHORT_NAME = 'PI';
-
-    const TIMEZONE = 'America/Fortaleza';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Piauí',
+            'abbr' => 'PI',
+            'capital' => 'Teresina',
+            'timezone' => 'America/Fortaleza',
+            'region' => 'Nordeste',
+            'dst' => false,
+            'slug' => 'piaui',
+        ]);
     }
 }

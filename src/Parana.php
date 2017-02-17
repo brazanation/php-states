@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class Parana
+class Parana extends State
 {
-    const CODE = 41;
-
-    const FULL_NAME = 'Parana';
-
-    const SHORT_NAME = 'PR';
-
-    const TIMEZONE = 'America/Sao_Paulo';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Paraná',
+            'abbr' => 'PR',
+            'capital' => 'Curitiba',
+            'timezone' => 'America/Sao_Paulo',
+            'region' => 'Sul',
+            'dst' => true,
+            'slug' => 'parana',
+        ]);
     }
 }
