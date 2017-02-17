@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class Tocantins
+class Tocantins extends State
 {
-    const CODE = 17;
-
-    const FULL_NAME = 'Tocantins';
-
-    const SHORT_NAME = 'TO';
-
-    const TIMEZONE = 'America/Araguaina';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Tocantins',
+            'abbr' => 'TO',
+            'capital' => 'Palmas',
+            'timezone' => 'America/Araguaina',
+            'region' => 'Norte',
+            'dst' => false,
+            'slug' => 'tocantins',
+        ]);
     }
 }

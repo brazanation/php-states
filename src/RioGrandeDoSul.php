@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class RioGrandeDoSul
+class RioGrandeDoSul extends State
 {
-    const CODE = 43;
-
-    const FULL_NAME = 'Rio Grande do Sul';
-
-    const SHORT_NAME = 'RS';
-
-    const TIMEZONE = 'America/Sao_Paulo';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Rio Grande do Sul',
+            'abbr' => 'RS',
+            'capital' => 'Porto Alegre',
+            'timezone' => 'America/Sao_Paulo',
+            'region' => 'Sul',
+            'dst' => true,
+            'slug' => 'rio-grande-do-sul',
+        ]);
     }
 }

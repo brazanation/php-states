@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class RioDeJaneiro
+class RioDeJaneiro extends State
 {
-    const CODE = 33;
-
-    const FULL_NAME = 'Rio de Janeiro';
-
-    const SHORT_NAME = 'RJ';
-
-    const TIMEZONE = 'America/Sao_Paulo';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Rio de Janeiro',
+            'abbr' => 'RJ',
+            'capital' => 'Rio de Janeiro',
+            'timezone' => 'America/Sao_Paulo',
+            'region' => 'Sudeste',
+            'dst' => true,
+            'slug' => 'rio-de-janeiro',
+        ]);
     }
 }

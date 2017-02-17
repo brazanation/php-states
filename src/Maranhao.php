@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class Maranhao
+class Maranhao extends State
 {
-    const CODE = 21;
-
-    const FULL_NAME = 'Maranhao';
-
-    const SHORT_NAME = 'MA';
-
-    const TIMEZONE = 'America/Fortaleza';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Maranhão',
+            'abbr' => 'MA',
+            'capital' => 'São Luís',
+            'timezone' => 'America/Fortaleza',
+            'region' => 'Nordeste',
+            'dst' => false,
+            'slug' => 'maranhao',
+        ]);
     }
 }

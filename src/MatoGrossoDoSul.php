@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class MatoGrossoDoSul
+class MatoGrossoDoSul extends State
 {
-    const CODE = 50;
-
-    const FULL_NAME = 'Mato Grosso do Sul';
-
-    const SHORT_NAME = 'MS';
-
-    const TIMEZONE = 'America/Campo_Grande';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Mato Grosso do Sul',
+            'abbr' => 'MS',
+            'capital' => 'Campo Grande',
+            'timezone' => 'America/Campo_Grande',
+            'region' => 'Centro-Oeste',
+            'dst' => true,
+            'slug' => 'mato-grosso-do-sul',
+        ]);
     }
 }

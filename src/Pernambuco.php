@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class Pernambuco
+class Pernambuco extends State
 {
-    const CODE = 26;
-
-    const FULL_NAME = 'Pernambuco';
-
-    const SHORT_NAME = 'PE';
-
-    const TIMEZONE = 'America/Recife';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Pernambuco',
+            'abbr' => 'PE',
+            'capital' => 'Recife',
+            'timezone' => 'America/Recife',
+            'region' => 'Nordeste',
+            'dst' => false,
+            'slug' => 'pernambuco',
+        ]);
     }
 }

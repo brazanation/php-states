@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class EspiritoSanto
+class EspiritoSanto extends State
 {
-    const CODE = 32;
-
-    const FULL_NAME = 'Espirito Santo';
-
-    const SHORT_NAME = 'ES';
-
-    const TIMEZONE = 'America/Sao_Paulo';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Espírito Santo',
+            'abbr' => 'ES',
+            'capital' => 'Vitória',
+            'timezone' => 'America/Sao_Paulo',
+            'region' => 'Sudeste',
+            'dst' => true,
+            'slug' => 'espirito-santo',
+        ]);
     }
 }

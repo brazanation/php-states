@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class Rondonia
+class Rondonia extends State
 {
-    const CODE = 11;
-
-    const FULL_NAME = 'Rondonia';
-
-    const SHORT_NAME = 'RO';
-
-    const TIMEZONE = 'America/Porto_Velho';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Rondônia',
+            'abbr' => 'RO',
+            'capital' => 'Porto Velho',
+            'timezone' => 'America/Porto_Velho',
+            'region' => 'Norte',
+            'dst' => false,
+            'slug' => 'rondonia',
+        ]);
     }
 }

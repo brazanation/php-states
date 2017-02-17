@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class Goias
+class Goias extends State
 {
-    const CODE = 52;
-
-    const FULL_NAME = 'Goias';
-
-    const SHORT_NAME = 'GO';
-
-    const TIMEZONE = 'America/Sao_Paulo';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Goiás',
+            'abbr' => 'GO',
+            'capital' => 'Goiânia',
+            'timezone' => 'America/Sao_Paulo',
+            'region' => 'Centro-Oeste',
+            'dst' => true,
+            'slug' => 'goias',
+        ]);
     }
 }

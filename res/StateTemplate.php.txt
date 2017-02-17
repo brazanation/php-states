@@ -1,0 +1,23 @@
+<?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
+
+namespace Brazanation\States;
+
+class %%ClassName%% extends State
+{
+    public function __construct()
+    {
+        parent::__construct([
+            'name' => '%%name%%',
+            'abbr' => '%%abbr%%',
+            'capital' => '%%capital%%',
+            'timezone' => '%%timezone%%',
+            'region' => '%%region%%',
+            'dst' => %%dst%%,
+            'slug' => '%%slug%%',
+        ]);
+    }
+}

@@ -1,24 +1,23 @@
 <?php
+/**
+ * This file was generated automatically, changes on this will not have effect
+ * PLEASE, DO NOT MODIFY THIS FILE
+ */
 
 namespace Brazanation\States;
 
-class DistritoFederal
+class DistritoFederal extends State
 {
-    const CODE = 53;
-
-    const FULL_NAME = 'Distrito Federal';
-
-    const SHORT_NAME = 'DF';
-
-    const TIMEZONE = 'America/Sao_Paulo';
-
     public function __construct()
     {
-        parent::__construct(
-            self::FULL_NAME,
-            self::SHORT_NAME,
-            self::CODE,
-            self::TIMEZONE
-        );
+        parent::__construct([
+            'name' => 'Distrito Federal',
+            'abbr' => 'DF',
+            'capital' => 'Brasília',
+            'timezone' => 'America/Sao_Paulo',
+            'region' => 'Centro-Oeste',
+            'dst' => true,
+            'slug' => 'distrito-federal',
+        ]);
     }
 }
