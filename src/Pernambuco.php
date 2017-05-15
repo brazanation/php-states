@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class Pernambuco
+class Pernambuco extends State
 {
     const CODE = 26;
 

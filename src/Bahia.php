@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class Bahia
+class Bahia extends State
 {
     const CODE = 29;
 

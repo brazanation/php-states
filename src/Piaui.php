@@ -2,11 +2,11 @@
 
 namespace Brazanation\States;
 
-class Piaui
+class Piaui extends State
 {
     const CODE = 22;
 
-    const FULL_NAME = 'Piaui';
+    const FULL_NAME = 'Piauí';
 
     const SHORT_NAME = 'PI';
 

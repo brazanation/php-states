@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class RioDeJaneiro
+class RioDeJaneiro extends State
 {
     const CODE = 33;
 

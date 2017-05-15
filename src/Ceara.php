@@ -2,11 +2,11 @@
 
 namespace Brazanation\States;
 
-class Ceara
+class Ceara extends State
 {
     const CODE = 23;
 
-    const FULL_NAME = 'Ceara';
+    const FULL_NAME = 'Ceará';
 
     const SHORT_NAME = 'CE';
 

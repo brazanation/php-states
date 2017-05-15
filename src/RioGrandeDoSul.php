@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class RioGrandeDoSul
+class RioGrandeDoSul extends State
 {
     const CODE = 43;
 

@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class MinasGerais
+class MinasGerais extends State
 {
     const CODE = 31;
 

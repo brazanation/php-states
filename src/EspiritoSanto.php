@@ -2,11 +2,11 @@
 
 namespace Brazanation\States;
 
-class EspiritoSanto
+class EspiritoSanto extends State
 {
     const CODE = 32;
 
-    const FULL_NAME = 'Espirito Santo';
+    const FULL_NAME = 'Espírito Santo';
 
     const SHORT_NAME = 'ES';
 
