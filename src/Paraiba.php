@@ -2,11 +2,11 @@
 
 namespace Brazanation\States;
 
-class Paraiba
+class Paraiba extends State
 {
     const CODE = 25;
 
-    const FULL_NAME = 'Paraiba';
+    const FULL_NAME = 'Paraíba';
 
     const SHORT_NAME = 'PB';
 

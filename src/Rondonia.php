@@ -2,11 +2,11 @@
 
 namespace Brazanation\States;
 
-class Rondonia
+class Rondonia extends State
 {
     const CODE = 11;
 
-    const FULL_NAME = 'Rondonia';
+    const FULL_NAME = 'Rondônia';
 
     const SHORT_NAME = 'RO';
 

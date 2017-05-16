@@ -2,11 +2,11 @@
 
 namespace Brazanation\States;
 
-class SaoPaulo
+class SaoPaulo extends State
 {
     const CODE = 35;
 
-    const FULL_NAME = 'Sao Paulo';
+    const FULL_NAME = 'São Paulo';
 
     const SHORT_NAME = 'SP';
 

@@ -2,11 +2,11 @@
 
 namespace Brazanation\States;
 
-class Goias
+class Goias extends State
 {
     const CODE = 52;
 
-    const FULL_NAME = 'Goias';
+    const FULL_NAME = 'Goiás';
 
     const SHORT_NAME = 'GO';
 
