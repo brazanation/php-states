@@ -30,6 +30,7 @@ class $clasName extends State
         );
     }\n}";
 		file_put_contents("$clasName.php", "<?php\n$classCode\n");
+	}
 }
 
 
