@@ -1,0 +1,23 @@
+#!/usr/bin/env php
+<?php
+
+use Symfony\Component\Console\Application;
+use Brazanation\States\Console\Commands;
+
+$paths = [
+    __DIR__ . '/../vendor/autoload.php',
+    __DIR__ . '/../../../autoload.php'
+];
+foreach ($paths as $path) {
+    if (is_file($path)) {
+        include $path;
+        break;
+    }
+}
+error_reporting(error_reporting() &~E_NOTICE);
+$cli = new Application('Brazanation States', "0.0");
+$cli->setCatchExceptions(true);
+$cli->addCommands(array(
+    new Commands\Generate(),
+));
+$cli->run();
