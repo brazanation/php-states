@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class SantaCatarina
+class SantaCatarina extends State
 {
     const CODE = 42;
 

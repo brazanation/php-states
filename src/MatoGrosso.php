@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class MatoGrosso
+class MatoGrosso extends State
 {
     const CODE = 51;
 

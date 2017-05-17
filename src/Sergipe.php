@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class Sergipe
+class Sergipe extends State
 {
     const CODE = 28;
 

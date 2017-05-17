@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class Roraima
+class Roraima extends State
 {
     const CODE = 14;
 

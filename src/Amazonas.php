@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class Amazonas
+class Amazonas extends State
 {
     const CODE = 13;
 

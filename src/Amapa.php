@@ -2,11 +2,11 @@
 
 namespace Brazanation\States;
 
-class Amapa
+class Amapa extends State
 {
     const CODE = 16;
 
-    const FULL_NAME = 'Amapa';
+    const FULL_NAME = 'Amapá';
 
     const SHORT_NAME = 'AP';
 

@@ -2,11 +2,11 @@
 
 namespace Brazanation\States;
 
-class Para
+class Para extends State
 {
     const CODE = 15;
 
-    const FULL_NAME = 'Para';
+    const FULL_NAME = 'Pará';
 
     const SHORT_NAME = 'PA';
 

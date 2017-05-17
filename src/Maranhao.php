@@ -2,11 +2,11 @@
 
 namespace Brazanation\States;
 
-class Maranhao
+class Maranhao extends State
 {
     const CODE = 21;
 
-    const FULL_NAME = 'Maranhao';
+    const FULL_NAME = 'Maranhão';
 
     const SHORT_NAME = 'MA';
 

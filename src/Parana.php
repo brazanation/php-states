@@ -2,11 +2,11 @@
 
 namespace Brazanation\States;
 
-class Parana
+class Parana extends State
 {
     const CODE = 41;
 
-    const FULL_NAME = 'Parana';
+    const FULL_NAME = 'Paraná';
 
     const SHORT_NAME = 'PR';
 

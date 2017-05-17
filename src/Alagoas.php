@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class Alagoas
+class Alagoas extends State
 {
     const CODE = 27;
 

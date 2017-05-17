@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class DistritoFederal
+class DistritoFederal extends State
 {
     const CODE = 53;
 

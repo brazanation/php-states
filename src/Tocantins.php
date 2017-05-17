@@ -2,7 +2,7 @@
 
 namespace Brazanation\States;
 
-class Tocantins
+class Tocantins extends State
 {
     const CODE = 17;
 
