@@ -1,9 +1,9 @@
 Brazanation States
 =====================
 
-[![Build Status](https://travis-ci.org/brazanation/states.svg?branch=master)](https://travis-ci.org/brazanation/states)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/brazanation/states/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/brazanation/states/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/brazanation/states/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/brazanation/states/?branch=master)
+[![Build Status](https://travis-ci.org/brazanation/php-states.svg?branch=master)](https://travis-ci.org/brazanation/php-states)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/brazanation/php-states/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/brazanation/php-states/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/brazanation/php-states/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/brazanation/php-states/?branch=master)
 [![StyleCI](https://styleci.io/repos/80746816/shield)](https://styleci.io/repos/80746816)
 
 A PHP library to provide Brazilian States safer, easier and fun!
