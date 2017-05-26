@@ -28,7 +28,14 @@ class Generate extends Command
 
     protected function configure()
     {
-        $this->addArgument('path', InputArgument::REQUIRED);
+        $this->addArgument(
+            new InputArgument(
+                'path',
+                InputArgument::REQUIRED,
+                'Directory to create states classes',
+                __DIR__ . './src'
+            )
+        );
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
