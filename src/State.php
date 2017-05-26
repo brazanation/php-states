@@ -12,7 +12,33 @@ namespace Brazanation\States;
 abstract class State implements StateInterface
 {
     private static $available = [
-        Acre::FULL_NAME => Acre::class,
+        'Acre' => Acre::class,
+        'Alagoas' => Alagoas::class,
+        'Amazonas' => Amazonas::class,
+        'Amapa' => Amapa::class,
+        'Bahia' => Bahia::class,
+        'Ceara' => Ceara::class,
+        'DistritoFederal' => DistritoFederal::class,
+        'EspiritoSanto' => EspiritoSanto::class,
+        'Goias' => Goias::class,
+        'Maranhao' => Maranhao::class,
+        'MinasGerais' => MinasGerais::class,
+        'MatoGrossoDoSul' => MatoGrossoDoSul::class,
+        'MatoGrosso' => MatoGrosso::class,
+        'Para' => Para::class,
+        'Paraiba' => Paraiba::class,
+        'Pernambuco' => Pernambuco::class,
+        'Piaui' => Piaui::class,
+        'Parana' => Parana::class,
+        'RioDeJaneiro' => RioDeJaneiro::class,
+        'RioGrandeDoNorte' => RioGrandeDoNorte::class,
+        'Rondonia' => Rondonia::class,
+        'Roraima' => Roraima::class,
+        'RioGrandeDoSul' => RioGrandeDoSul::class,
+        'SantaCatarina' => SantaCatarina::class,
+        'Sergipe' => Sergipe::class,
+        'SaoPaulo' => SaoPaulo::class,
+        'Tocantins' => Tocantins::class,
     ];
 
     /**
