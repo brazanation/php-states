@@ -3,8 +3,9 @@
 namespace Brazanation\States\Tests;
 
 use Brazanation\States;
+use PHPUnit\Framework\TestCase;
 
-class StateTest extends \PHPUnit_Framework_TestCase
+class StateTest extends TestCase
 {
     /**
      * @dataProvider provideStates

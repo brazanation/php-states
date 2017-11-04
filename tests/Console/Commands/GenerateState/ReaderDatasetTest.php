@@ -3,8 +3,9 @@
 namespace Brazanation\States\Tests\Console\Commands\Generate;
 
 use Brazanation\States\Console\Commands\Generate\ReaderDataset;
+use PHPUnit\Framework\TestCase;
 
-class ReaderDatasetTest extends \PHPUnit_Framework_TestCase
+class ReaderDatasetTest extends TestCase
 {
     public function testShouldReadDatasetFile()
     {
