@@ -14,4 +14,24 @@ class ReaderDatasetTest extends TestCase
 
         $this->assertCount(27, $reader);
     }
+
+    public function testConstructorOnNullFilePath()
+    {
+        $reader = new ReaderDataset(null);
+        $reader->read();
+
+        $this->assertCount(27, $reader);
+    }
+
+    public function testGetCurrentStates()
+    {
+        $reader = new ReaderDataset(null);
+        $reader->read();
+        $result = $reader->current();
+
+        $this->assertSame('EstadoDo', $result->getClassName());
+        $this->assertSame('Estado do', $result->getFullName());
+        $this->assertSame('AC', $result->getShortName());
+        $this->assertSame('State', $result->getTimeZone());
+    }
 }
