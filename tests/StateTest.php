@@ -20,6 +20,7 @@ class StateTest extends TestCase
         $this->assertEquals($shortName, $state->shortName, "Failed asserting short for {$fullName}");
         $this->assertEquals($code, $state->code, "Failed asserting code for {$fullName}");
         $this->assertEquals($timezone, $state->timeZone, "Failed asserting timezone for {$fullName}");
+        $this->assertTrue($state->equalTo($state));
     }
 
     public function provideStates()
